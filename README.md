@@ -114,8 +114,3 @@ Example:
 Keep it local and add `src/main/resources/application.properties` to your `.gitignore`.
 
 ---
-
-## ✅ Ready to go!
-
-Run, test, and share this backend confidently.  
-Built with Spring Boot + PostgreSQL + clean design for interview readiness 🚀
