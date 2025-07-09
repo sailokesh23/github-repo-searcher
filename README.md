@@ -47,6 +47,8 @@ Or run the `GithubSearcherApplication` class from your IDE.
 **Description:**  
 Searches GitHub repositories by `query`, `language`, and `sort`. Saves the results in PostgreSQL.
 
+![Search Repositories](images/postman-search.png)
+
 **Request Body:**
 ```json
 {
@@ -69,6 +71,8 @@ curl -X POST http://localhost:8080/api/github/search \
 
 **Description:**  
 Retrieves stored repositories with optional filters.
+
+![Get Stored Repositories](images/postman-get.png)
 
 **Query Parameters (optional):**
 - `language` → Filter by language
